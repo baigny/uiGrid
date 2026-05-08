@@ -28,7 +28,7 @@
   "scripts": {
     "generate-css": "node generate-core-css.mjs",
     "prebuild": "node generate-core-css.mjs",
-    "build": "tsup",
+    "build": "node init && tsup",
     "test": "vitest run"
   }
 }
