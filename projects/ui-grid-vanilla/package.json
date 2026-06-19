@@ -34,8 +34,8 @@
     "vitest": "^4.1.0"
   },
   "scripts": {
-    "start": "SASS_PATH=node_modules vite serve",
-    "build": "SASS_PATH=node_modules tsup",
+    "start": "node init && SASS_PATH=node_modules vite serve",
+    "build": "node init && SASS_PATH=node_modules tsup",
     "watch": "SASS_PATH=node_modules tsup --watch",
     "test": "SASS_PATH=node_modules vitest run --config vitest.config.ts",
     "test:coverage": "SASS_PATH=node_modules vitest run --config vitest.config.ts --coverage"

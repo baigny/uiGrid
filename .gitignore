@@ -21,7 +21,6 @@ yarn-error.log
 *.sublime-workspace
 
 # Visual Studio Code
-.vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
@@ -50,3 +49,4 @@ projects/ui-grid/src/lib/grid/**/*.d.ts
 projects/ui-grid/src/lib/grid/**/*.d.ts.map
 .todos.md
 settings.local.json
+config.bat
